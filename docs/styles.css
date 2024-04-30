@@ -1,0 +1,82 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font: 400 100%/1.7 Helvetica,Arial,sans-serif;
+}
+
+gd-dashboard {
+    overflow: hidden;
+}
+
+article {
+    background: #fafafa;
+}
+
+figure {
+    background-image: url(lego_star_wars_analysis_cover.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #1c0d3e;
+    height: 50vw;
+    margin: 0;
+}
+
+header {
+    margin-bottom: 5em;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.6em;
+    font-weight: lighter;
+    margin: 1rem 0;
+}
+
+header p {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: lighter;
+    margin: 1rem 0;
+}
+
+footer {
+    background: #210b45;
+    color: #fff;
+}
+
+footer a,
+footer a:visited {
+    color: #fff;
+}
+
+section {
+    box-sizing: border-box;
+    padding: 1em;
+    width: 100%;
+}
+
+.dashboards {
+    margin-bottom: 2em;
+}
+
+.dashboards section {
+    box-shadow: none;
+    border-radius: 5px;
+    min-height: 400px;
+    margin-top: 2em;
+    background: #fff;
+}
+
+@media (min-width: 940px) {
+    figure {
+        height: 470px;
+    }
+    section {
+        width: 940px;
+        margin: 0 auto;
+    }
+    .dashboards section {
+        box-shadow: grey 0 0 15px;
+    }
+}
